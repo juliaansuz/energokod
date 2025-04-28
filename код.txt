@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Магія півсвідомості | Індивідуальні Енерго-Коди</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0d0d1a;
+      color: #ffffff;
+      overflow: hidden;
+    }
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.2em;
+      text-shadow: 0 0 20px rgba(255,255,255,0.6);
+    }
+    h2 {
+      font-size: 1.6em;
+      color: #bb86fc;
+      text-shadow: 0 0 15px rgba(255,255,255,0.5);
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+    .button {
+      display: inline-block;
+      background: #bb86fc;
+      color: #0d0d1a;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .messengers {
+      margin-top: 20px;
+    }
+    .messengers a {
+      display: inline-block;
+      margin: 10px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    form {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    input, textarea {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      max-width: 400px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background: #bb86fc;
+      color: #0d0d1a;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #999;
+      text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+
+    /* Космический фон */
+    .stars {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://cdn.pixabay.com/photo/2017/08/30/19/19/space-2695561_960_720.jpg') repeat;
+      animation: moveBackground 200s linear infinite;
+      z-index: -1;
+    }
+
+    @keyframes moveBackground {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Космический фон -->
+<div class="stars"></div>
+
+<header>
+  <h1>Магія півсвідомості</h1>
+  <h2>Енерго-коди, які змінюють життя на краще</h2>
+</header>
+
+<section>
+  <h2>Що таке Енерго-Код?</h2>
+  <p>Це індивідуальний аудіофайл із зашифрованими підсвідомими внушеннями, налаштованими спеціально під ваш запит. Він:</p>
+  <ul style="text-align:left; max-width:600px; margin:20px auto;">
+    <li>перепрограмовує обмежуючі установки,</li>
+    <li>активує внутрішні ресурси,</li>
+    <li>налаштовує енергетичне поле на досягнення цілей.</li>
+  </ul>
+  <p>Процеси змін йдуть природньо та безпечним чином, відповідно до ваших ресурсів і готовності.</p>
+  <p><strong>Вартість створення енерго-коду:</strong><br>999 грн / 22 €</p>
+</section>
+
+<section>
+  <h2>Замовити свій Енерго-Код</h2>
+  <p>На яку тему ви хочете створити свій код? ??</p>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <input type="text" name="name" placeholder="Ваше ім'я" required>
+    <input type="email" name="email" placeholder="Ваш Email" required>
+    <textarea name="message" rows="4" placeholder="Ваш запит (тема коду)" required></textarea>
+    <input type="submit" value="Відправити запит">
+  </form>
+
+  <div class="messengers">
+    <p>Або зв'яжіться напряму:</p>
+    <a href="https://t.me/julia_ansuz" target="_blank">Telegram</a>
+    <a href="viber://chat?number=%2B380685150627" target="_blank">Viber</a>
+    <a href="https://wa.me/380685150627" target="_blank">WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Магія півсвідомості. Всі права захищено.</p>
+</footer>
+
+</body>
+</html>
